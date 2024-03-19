@@ -1,0 +1,87 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout>
+    <section class="max-w-[800px] p-10">
+        <img src="/hgt_logo.png" />
+    </section>
+    <section class="p-5">
+        <main
+            class="rounded-lg border-2 border-pink-200 bg-orange-100 px-12 pb-10 pt-5 text-2xl text-green-200"
+        >
+            <h1 class="pb-10 text-center">music made by positive change</h1>
+            <div class="flex justify-between">
+                <div class="relative flex flex-col gap-8">
+                    <a
+                        href="https://www.instagram.com/hgtmusic/"
+                        target="_blank"
+                    >
+                        <div class="flex flex-col items-center">
+                            <p class="text-md text-center text-gray-600">
+                                stream
+                            </p>
+                            <img class="max-w-[80px]" src="/spotify.svg" />
+                            <img
+                                class="absolute -right-[100px] top-[50px] min-w-[100px]"
+                                src="arrow_yellow.svg"
+                            />
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/hgtmusic/"
+                        target="_blank"
+                    >
+                        <div class="relative flex flex-col items-center">
+                            <p class="text-md text-center text-gray-600">
+                                follow
+                            </p>
+                            <img class="max-w-[50px]" src="/instagram.svg" />
+                            <img
+                                class="absolute -right-[105px] top-[20px] min-w-[120px]"
+                                src="arrow_pink.svg"
+                            />
+                        </div>
+                    </a>
+                </div>
+                <div class="flex flex-col gap-16 pt-5">
+                    <a
+                        href="https://www.instagram.com/hgtmusic/"
+                        target="_blank"
+                    >
+                        <div class="relative flex flex-col items-center">
+                            <p class="text-md text-center text-gray-600">
+                                watch
+                            </p>
+                            <img class="max-w-[70px]" src="/youtube.svg" />
+                            <img
+                                class="absolute -left-[120px] top-[50px] min-w-[120px]"
+                                src="arrow_blue.svg"
+                            />
+                        </div>
+                    </a>
+
+                    <a
+                        href="https://www.instagram.com/hgtmusic/"
+                        target="_blank"
+                    >
+                        <div class="flex flex-col items-center">
+                            <p class="text-md text-center text-gray-600">
+                                email
+                            </p>
+                            <img class="max-w-[50px]" src="/email.svg" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </section>
+</Layout>
+
+<style>
+    main {
+        box-shadow: -5px 5px #f19e94;
+    }
+</style>
